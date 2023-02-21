@@ -26,6 +26,7 @@ class AudioGameVM: ObservableObject {
                                        "scale-1.m4a"]
     
     private static func loadBundleAudio(_ fileName:String) -> AVAudioPlayer? {
+        print("fileName", fileName)
         let path = Bundle.main.path(forResource: fileName, ofType:nil)!
         let url = URL(fileURLWithPath: path)
         do {
