@@ -15,6 +15,9 @@
 		0B06478B29A3F3E20066427D /* macOS in Resources */ = {isa = PBXBuildFile; fileRef = 0B06478A29A3F3E20066427D /* macOS */; };
 		0BCE7A2929A54B1A00418A77 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BCE7A2829A54B1A00418A77 /* MenuView.swift */; };
 		0BCE7A2B29A54C8200418A77 /* PitchControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BCE7A2A29A54C8200418A77 /* PitchControlView.swift */; };
+		ABB4583B29A56503001394BB /* scale-1.m4a in Resources */ = {isa = PBXBuildFile; fileRef = ABB4583829A56503001394BB /* scale-1.m4a */; };
+		ABB4583C29A56503001394BB /* bbc-birds-1.m4a in Resources */ = {isa = PBXBuildFile; fileRef = ABB4583929A56503001394BB /* bbc-birds-1.m4a */; };
+		ABB4583D29A56503001394BB /* bbc-birds-2.m4a in Resources */ = {isa = PBXBuildFile; fileRef = ABB4583A29A56503001394BB /* bbc-birds-2.m4a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,11 +27,13 @@
 		0B06477629A141980066427D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0B06478229A3511F0066427D /* AudioGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioGame.swift; sourceTree = "<group>"; };
 		0B06478429A352530066427D /* AudioGameVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioGameVM.swift; sourceTree = "<group>"; };
-		0B06478829A3F3020066427D /* Resources */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Resources; path = MemorizeAudio/Resources; sourceTree = SOURCE_ROOT; };
 		0B06478A29A3F3E20066427D /* macOS */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = macOS; path = MemorizeAudio/macOS; sourceTree = SOURCE_ROOT; };
 		0B06478D29A3F49E0066427D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0BCE7A2829A54B1A00418A77 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 		0BCE7A2A29A54C8200418A77 /* PitchControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PitchControlView.swift; sourceTree = "<group>"; };
+		ABB4583829A56503001394BB /* scale-1.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "scale-1.m4a"; path = "Resources/scale-1.m4a"; sourceTree = "<group>"; };
+		ABB4583929A56503001394BB /* bbc-birds-1.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "bbc-birds-1.m4a"; path = "Resources/bbc-birds-1.m4a"; sourceTree = "<group>"; };
+		ABB4583A29A56503001394BB /* bbc-birds-2.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "bbc-birds-2.m4a"; path = "Resources/bbc-birds-2.m4a"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +66,9 @@
 		0B06477129A141980066427D /* MemorizeAudio */ = {
 			isa = PBXGroup;
 			children = (
+				ABB4583929A56503001394BB /* bbc-birds-1.m4a */,
+				ABB4583A29A56503001394BB /* bbc-birds-2.m4a */,
+				ABB4583829A56503001394BB /* scale-1.m4a */,
 				0B06477229A141980066427D /* MemorizeAudioApp.swift */,
 				0B06477429A141980066427D /* AudioGameView.swift */,
 				0B06478229A3511F0066427D /* AudioGame.swift */,
@@ -68,7 +76,6 @@
 				0B06477629A141980066427D /* Assets.xcassets */,
 				0BCE7A2829A54B1A00418A77 /* MenuView.swift */,
 				0BCE7A2A29A54C8200418A77 /* PitchControlView.swift */,
-				0B06478829A3F3020066427D /* Resources */,
 				0B06478C29A3F49E0066427D /* Preview Content */,
 				0B06478A29A3F3E20066427D /* macOS */,
 			);
@@ -141,7 +148,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABB4583D29A56503001394BB /* bbc-birds-2.m4a in Resources */,
 				0B06478B29A3F3E20066427D /* macOS in Resources */,
+				ABB4583C29A56503001394BB /* bbc-birds-1.m4a in Resources */,
+				ABB4583B29A56503001394BB /* scale-1.m4a in Resources */,
 				0B06477729A141980066427D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -287,7 +297,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MemorizeAudio/Preview Content\"";
-				DEVELOPMENT_TEAM = K3G6JZ7WFR;
+				DEVELOPMENT_TEAM = 3RCW2SSL8G;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -316,7 +326,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MemorizeAudio/Preview Content\"";
-				DEVELOPMENT_TEAM = K3G6JZ7WFR;
+				DEVELOPMENT_TEAM = 3RCW2SSL8G;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
